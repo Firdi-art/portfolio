@@ -1,0 +1,301 @@
+*{
+    margin:0;
+    padding:0;
+    
+}
+.home{
+    height:275vh;
+    background:black;
+    cursor:pointer;
+}
+ul{
+   text-align:right;
+   position:absolute;
+    top:5%;
+    right:8%; 
+}
+ul li{
+    color:white;
+    display:inline-flex;
+    padding:0px 15px; 
+}
+ul li a{
+    color:white;
+    text-decoration:none;
+    font-size:14px;
+}
+ul li a:hover{
+    color:brown;
+}
+.name{
+    position:absolute;
+    top:5%;
+    left:8%;
+    color:white;
+    font-size:18px;
+    font-weight:600;
+    letter-spacing: 2px;
+}
+.nice{
+    position:absolute;
+    top:30%;
+    left:8%;
+    color:white;
+    font-size:56px;
+    font-weight:bold;
+}
+.nice span:hover{
+    color:brown;
+  
+}
+#line{
+    height:3px;
+    width:455px;
+    background-color:brown;
+    position:absolute;
+    top:51%;
+    left:15.5%;
+    letter-spacing: 1px;
+}
+.para{
+    position:absolute;
+    top:57%;
+    left:8%;
+    color:white;
+    line-height:20px;
+    word-spacing:2px;
+    letter-spacing: 1px;
+}
+.btn{
+    position:absolute;
+    top:75%;
+    left:8%;
+    color:white;
+    background-color:brown;
+    font-size:14px;
+    padding:10px;
+    border-radius:20px;
+    border:none;
+    outline:none;
+}
+.btn:hover{
+    background-color:white;
+    color:brown;
+}
+img{
+    width:350px;
+    position:absolute;
+    top:15%;
+    left:60%;
+    border-radius:100%;
+    
+}
+.services{
+    position:absolute;
+    top:110%;
+    left:8%;
+    color:white;
+    font-size:40px;
+    letter-spacing:1px;
+    font-weight:600;
+}
+.web{
+    position:absolute;
+    top:125%;
+    left:8%;
+    border:1px solid rgb(156, 155, 155);
+    height:48%;
+    width:25%;
+    backdrop-filter: blur(10px);
+}
+.web:hover{
+    background-color:brown;
+}
+.web w{
+    position:absolute;
+    top:38%;
+    left:10%;
+    color:white;
+    font-size:26px;
+    letter-spacing:1px;
+}
+.web w1{
+    position:absolute;
+    top:55%;
+    left:10%;
+    color:white;
+}
+.web .i1{
+    position:absolute;
+    top:20%;
+    left:10%;
+    color:white;
+    font-size:30px;
+}
+.ui{
+    position:absolute;
+    top:125%;
+    left:37%;
+    border:1px solid rgb(156, 155, 155);
+    height:48%;
+    width:25%;
+    backdrop-filter: blur(10px);
+}
+.ui:hover{
+    background-color:brown;
+}
+.ui u1{
+    position:absolute;
+    top:38%;
+    left:10%;
+    color:white;
+    font-size:24px;
+    letter-spacing:1px;
+}
+.ui u2{
+    position:absolute;
+    top:55%;
+    left:10%;
+    color:white;
+}
+.ui .i2{
+    position:absolute;
+    top:20%;
+    left:10%;
+    color:white;
+    font-size:30px;
+}
+.app{
+    position:absolute;
+    top:125%;
+    left:66%;
+    border:1px solid rgb(156, 155, 155);
+    height:48%;
+    width:25%;
+    backdrop-filter: blur(10px);
+}
+.app:hover{
+    background-color:brown;
+}
+.app a1{
+    position:absolute;
+    top:38%;
+    left:10%;
+    color:white;
+    font-size:26px;
+    letter-spacing:1px;
+}
+.app a2{
+    position:absolute;
+    top:55%;
+    left:10%;
+    color:white;
+}
+.app .i3{
+    position:absolute;
+    top:20%;
+    left:10%;
+    color:white;
+    font-size:30px;
+}
+.second{
+    background-color:rgb(28, 26, 26);
+    position:absolute;
+    top:175%;
+    height:100%;
+    width:100%;
+    backdrop-filter: blur(5px);
+}
+.contact{
+    position:absolute;
+    top:25%;
+    left:8%;
+    color:white;
+    font-size:46px;
+    letter-spacing:2px;
+    font-weight:600;
+}
+.para2{
+    position:absolute;
+    top:38%;
+    left:8%;
+    color:white;
+    line-height:20px;
+}
+.log{
+    width:300px;
+    height:300px;
+    background:transparent;
+    color:white;
+    padding:30px 40px;
+    border:2px solid rgb(255, 255, 255 , .2);
+    border-radius:10px;
+    backdrop-filter:blur(20px);
+    box-shadow:0 0 10px black;
+    position:absolute;
+    top:17%;
+    left:50%;
+    outline:none;
+    border:none;
+}
+.log .username{
+    width:100%;
+    height:35px;
+    background:transparent;
+    margin:30px 0px;
+}
+.username input{
+    width:100%;
+    height:100%;
+    background:transparent;
+    border:none;
+    outline:none;
+    border: 1px solid rgb(255, 255, 255 , .2);
+    color:white;
+    padding-left:10px;
+   
+}
+.username input::placeholder{
+    
+}
+.buttom ul{
+    text-align:right;
+    position:absolute;
+    top:93%;
+    right:8%; 
+}
+.buttom ul li{
+    color:white;
+    display:inline-flex;
+    padding:0px 15px; 
+}
+.btn1{
+    position:absolute;
+    top:87%;
+    left:64%;
+    color:white;
+    background-color:brown;
+    font-size:14px;
+    padding:10px;
+    border-radius:20px;
+    border:none;
+    outline:none;
+}
+.btn1:hover{
+    background-color:white;
+    color:brown;
+}
+.log textarea{
+    width:100%;
+    height:15vh;
+    background-color:transparent;
+    padding-left:10px;
+    padding-top:5px;
+    color:white;
+    outline:none;
+    border: 1px solid rgb(255, 255, 255 , .2);
+}
+.log textarea::placeholder{
+   
+}
+
